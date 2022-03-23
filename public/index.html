@@ -7,9 +7,9 @@
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Here is my portfolio about my work as a software engineer. I am a web developer based out of Pennsylvania. I have written application and APIs for different industries."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -24,9 +24,55 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quantico&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Redact Digital | Portfolio</title>
   </head>
-  <body>
+
+  <body style="margin: 0; padding: 0">
+    <!-- Schema -->
+    <script type="application/ld+json" async defer>
+      {
+        "@context": "https://schema.org",
+        "@type": "Software Engineer",
+        "name": "Patrick Rizzardi",
+        "@id": "",
+        "url": "https://patrizzardi.com",
+        "telephone": "(814) 688-0382",
+        "priceRange": "500 - 20,000",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Erie",
+          "addressRegion": "PA",
+          "postalCode": "16502",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 42.0959114,
+          "longitude": -80.11932589999999
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        },
+        "image": ["https://patrizzardi.com/header.jpg"]
+      }
+    </script>
+    <!-- End of Schema -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
