@@ -12,13 +12,13 @@ function Navigation() {
       href: '/#about',
       name: 'About',
     },
+    // {
+    //   id: '03.',
+    //   href: '/#blog',
+    //   name: 'Recent Posts',
+    // },
     {
       id: '03.',
-      href: '/#blog',
-      name: 'Recent Posts',
-    },
-    {
-      id: '04.',
       href: '/#contact',
       name: 'Contact',
     },

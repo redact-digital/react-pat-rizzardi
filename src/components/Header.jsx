@@ -1,7 +1,7 @@
 import { Grid, Container, Typography, Button } from '@mui/material'
 import { Send } from '@mui/icons-material'
 
-function Header() {
+function Header({ email }) {
   const wave = {
     fill: '#000',
     opacity: '0.8',
@@ -101,7 +101,7 @@ function Header() {
           <Button
             startIcon={<Send />}
             variant="outlined"
-            href="mailto:patrick.d.rizzardi@gmail.com"
+            href={`mailto:${email}`}
           >
             Get In Touch
           </Button>
