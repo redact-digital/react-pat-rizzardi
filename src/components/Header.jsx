@@ -14,7 +14,7 @@ function Header() {
 
   const header = {
     background:
-      'linear-gradient(black, transparent 30%, transparent 80%, black), url("assets/header.jpg")',
+      'linear-gradient(black 5%, transparent 95%), url("assets/header.jpg")',
     backgroundSize: 'cover',
     backgroundPosition: 'center center',
     backgroundRepeat: ' no-repeat',
@@ -91,7 +91,7 @@ function Header() {
         </Grid>
         <Grid marginTop={4}>
           <Typography variant="h6">
-            I am a software developer in Northwestern, Pa
+            I am a software developer in Northwestern, PA
           </Typography>
           <Typography variant="h6">
             specializing in building remarkable websites, and applications.
@@ -100,6 +100,7 @@ function Header() {
         <Grid marginTop={4}>
           <Button
             startIcon={<Send />}
+            variant="outlined"
             href="mailto:patrick.d.rizzardi@gmail.com"
           >
             Get In Touch

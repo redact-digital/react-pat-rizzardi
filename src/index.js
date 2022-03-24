@@ -15,11 +15,11 @@ const theme = createTheme({
   typography: {
     fontFamily: '"Quantico", sans-serif',
   },
+
   components: {
     MuiButton: {
       defaultProps: {
         color: 'primary',
-        variant: 'outlined',
         centerRipple: true,
         style: {
           padding: '12px 25px',
