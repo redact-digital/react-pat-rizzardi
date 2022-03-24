@@ -6,6 +6,7 @@
     "react/style-prop-object": "off",
     "react/button-has-type": "off",
     "react/prop-types": "off",
-    "react/no-array-index-key": "off"
+    "react/no-array-index-key": "off",
+    "import/no-named-as-default": 0
   }
 }

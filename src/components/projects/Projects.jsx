@@ -1,5 +1,4 @@
 import { Typography, Box, Container, Grid } from '@mui/material'
-// import { OpenInNewOutlined, GitHub } from '@mui/icons-material'
 import Content from './components/Content'
 import InvertedContent from './components/InvertedContent'
 
@@ -39,7 +38,6 @@ function Projects() {
       sx={{
         color: 'secondary.main',
         my: '10rem',
-        display: { xs: 'none', sm: 'none', md: 'block' },
       }}
     >
       <Typography variant="h3" mb={16}>
